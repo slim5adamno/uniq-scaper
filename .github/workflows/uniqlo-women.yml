@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        curl --user-agent "Mozilla 4.0/" "https://www.uniqlo.com/in/api/commerce/v3/en/products?path=9672&flagCodes=discount&sort=2&limit=1000&offset=0" | jq . > uniq-women.json
+        curl --user-agent "Mozilla 4.0/" "https://www.uniqlo.com/in/api/commerce/v3/en/products?path=9673&flagCodes=discount&sort=2&limit=300&offset=0" | jq . > uniq-women.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
