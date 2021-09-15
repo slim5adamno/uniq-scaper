@@ -64,16 +64,6 @@
           "name": "PINK"
         },
         {
-          "code": "COL13",
-          "displayCode": "13",
-          "name": "RED"
-        },
-        {
-          "code": "COL16",
-          "displayCode": "16",
-          "name": "RED"
-        },
-        {
           "code": "COL17",
           "displayCode": "17",
           "name": "RED"
@@ -129,11 +119,6 @@
           "name": "BEIGE"
         },
         {
-          "code": "COL33",
-          "displayCode": "33",
-          "name": "KHAKI"
-        },
-        {
           "code": "COL34",
           "displayCode": "34",
           "name": "BROWN"
@@ -179,11 +164,6 @@
           "name": "YELLOW"
         },
         {
-          "code": "COL45",
-          "displayCode": "45",
-          "name": "YELLOW"
-        },
-        {
           "code": "COL50",
           "displayCode": "50",
           "name": "LIGHT GREEN"
@@ -191,11 +171,6 @@
         {
           "code": "COL51",
           "displayCode": "51",
-          "name": "GREEN"
-        },
-        {
-          "code": "COL52",
-          "displayCode": "52",
           "name": "GREEN"
         },
         {
@@ -209,11 +184,6 @@
           "name": "GREEN"
         },
         {
-          "code": "COL55",
-          "displayCode": "55",
-          "name": "GREEN"
-        },
-        {
           "code": "COL56",
           "displayCode": "56",
           "name": "OLIVE"
@@ -224,11 +194,6 @@
           "name": "OLIVE"
         },
         {
-          "code": "COL59",
-          "displayCode": "59",
-          "name": "DARK GREEN"
-        },
-        {
           "code": "COL60",
           "displayCode": "60",
           "name": "LIGHT BLUE"
@@ -236,11 +201,6 @@
         {
           "code": "COL61",
           "displayCode": "61",
-          "name": "BLUE"
-        },
-        {
-          "code": "COL62",
-          "displayCode": "62",
           "name": "BLUE"
         },
         {
@@ -299,19 +259,22 @@
           "code": "discount",
           "name": "Sale",
           "rank": 7,
-          "id": 12
+          "id": 12,
+          "lazy": true
         },
         {
           "code": "onlineOnly",
           "name": "Online Only",
           "rank": 12,
-          "id": 8
+          "id": 8,
+          "lazy": false
         },
         {
           "code": "limitedStore",
           "name": "Limited Store",
           "rank": 13,
-          "id": 3
+          "id": 3,
+          "lazy": false
         }
       ],
       "plds": [
