@@ -39,6 +39,11 @@
           "name": "BLACK"
         },
         {
+          "code": "COL23",
+          "displayCode": "23",
+          "name": "ORANGE"
+        },
+        {
           "code": "COL30",
           "displayCode": "30",
           "name": "NATURAL"
@@ -188,12 +193,12 @@
         {
           "from": 500,
           "to": 1000,
-          "count": 12
+          "count": 13
         },
         {
           "from": 1000,
           "to": 2000,
-          "count": 21
+          "count": 20
         },
         {
           "from": 2000,
@@ -283,11 +288,6 @@
           "code": "INS031",
           "displayCode": "031",
           "name": "31inch"
-        },
-        {
-          "code": "INS032",
-          "displayCode": "032",
-          "name": "32inch"
         },
         {
           "code": "SIZ999",
@@ -503,10 +503,6 @@
           {
             "id": 20443,
             "name": "Fleece"
-          },
-          {
-            "id": 11750,
-            "name": "Others"
           },
           {
             "id": 12674,
@@ -1761,6 +1757,148 @@
         "careInstruction": "-",
         "colors": [
           {
+            "code": "COL23",
+            "displayCode": "23",
+            "name": "ORANGE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton/ Exclusive of Decoration",
+        "designDetail": "",
+        "freeInformation": "",
+        "genderName": "Men",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/437945/item/goods_23_437945.jpg",
+              "colorCode": "23"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/437945/chip/goods_23_437945_chip.jpg",
+              "colorCode": "23"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/437945/sub/goods_437945_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/437945/sub/goods_437945_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/437945/sub/goods_437945_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/437945/sub/ingoods_437945_sub27.jpg"
+            }
+          ]
+        },
+        "l1Id": "437945",
+        "longDescription": "The Brands The World of Record Stores<br><br>A collaborative collection has been created with a total of 5 record stores which include \"Rough Trade\" in the UK and the US, \"Amoeba Music\" in the US, \"Rush Hour\" in the Netherlands, and \"TECHNIQUE\" and \"Face Records\" in Japan.<br><br>&copy; Technique / Energy Flash Co., ltd.",
+        "name": "MEN The Brands Rs UT(Short Sleeve Graphic T-Shirt)",
+        "prices": {
+          "base": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "1290.0000"
+          },
+          "promo": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "790.0000"
+          }
+        },
+        "productId": "E437945-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": [
+              "display",
+              "sale"
+            ],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": null,
+          "count": 0,
+          "fit": null,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 0
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL23",
+            "displayCode": "23",
+            "name": "ORANGE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [
+              {
+                "code": "discount",
+                "id": 12,
+                "name": "Sale",
+                "detail": "Sale"
+              }
+            ],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "06099125",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 41,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "This collaboration with record stores carefully selected from all over the world is a must-see for music lovers!",
+        "sizeChartUrl": "https://www.uniqlo.com/in/en/size/437945_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 0,
+        "washingInformation": "Machine wash cold"
+      },
+      {
+        "careInstruction": "-",
+        "colors": [
+          {
             "code": "COL00",
             "displayCode": "00",
             "name": "WHITE",
@@ -2890,15 +3028,6 @@
             "code": "INS031",
             "displayCode": "031",
             "name": "31inch",
-            "display": {
-              "showFlag": true,
-              "chipType": 1
-            }
-          },
-          {
-            "code": "INS032",
-            "displayCode": "032",
-            "name": "32inch",
             "display": {
               "showFlag": true,
               "chipType": 1
@@ -4073,183 +4202,6 @@
             "code": "SMA006",
             "displayCode": "006",
             "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "unisexFlag": 0,
-        "washingInformation": "Machine wash cold, gentle cycle"
-      },
-      {
-        "careInstruction": "-",
-        "colors": [
-          {
-            "code": "COL39",
-            "displayCode": "39",
-            "name": "DARK BROWN",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          }
-        ],
-        "composition": "100% Polyester",
-        "designDetail": "",
-        "freeInformation": "",
-        "genderName": "Men",
-        "hideReview": false,
-        "images": {
-          "main": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/424222/item/ingoods_39_424222.jpg",
-              "colorCode": "39"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/424222/item/ingoods_65_424222.jpg",
-              "colorCode": "65"
-            }
-          ],
-          "chip": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/424222/chip/goods_39_424222_chip.jpg",
-              "colorCode": "39"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/424222/chip/goods_65_424222_chip.jpg",
-              "colorCode": "65"
-            }
-          ],
-          "sub": [
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/424222/sub/ingoods_424222_sub1.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/424222/sub/ingoods_424222_sub2.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/424222/sub/ingoods_424222_sub3.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/424222/sub/goods_424222_sub4.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/424222/sub/goods_424222_sub5.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/424222/sub/goods_424222_sub6.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/424222/sub/goods_424222_sub7.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/424222/sub/goods_424222_sub8.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/424222/sub/goods_424222_sub11.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/424222/sub/goods_424222_sub12.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/424222/sub/goods_424222_sub13.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/424222/sub/goods_424222_sub14.jpg"
-            },
-            {
-              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/424222/sub/ingoods_424222_sub22.jpg"
-            }
-          ]
-        },
-        "l1Id": "424222",
-        "longDescription": "- Groundbreaking DRY-EX material dries sweat and moisture quickly. <br>- We’ve added anti-microbial and anti-odor properties to keep you feeling fresh even in sweaty situations.",
-        "name": "MEN DRY-EX UV Cut Printed Full-Zip Hoodie",
-        "prices": {
-          "base": {
-            "currency": {
-              "code": "INR",
-              "symbol": "Rs."
-            },
-            "value": "2490.0000"
-          },
-          "promo": {
-            "currency": {
-              "code": "INR",
-              "symbol": "Rs."
-            },
-            "value": "1490.0000"
-          }
-        },
-        "productId": "E424222-000",
-        "plds": [
-          {
-            "code": "PTB000",
-            "displayCode": "000",
-            "name": "-",
-            "isDummy": false,
-            "states": [
-              "display",
-              "sale"
-            ],
-            "display": {
-              "showFlag": false,
-              "chipType": 0
-            }
-          }
-        ],
-        "rating": {
-          "average": null,
-          "count": 0,
-          "fit": null,
-          "rateCount": {
-            "one": 0,
-            "two": 0,
-            "three": 0,
-            "four": 0,
-            "five": 0
-          }
-        },
-        "representative": {
-          "color": {
-            "code": "COL39",
-            "displayCode": "39",
-            "name": "DARK BROWN",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          "flags": {
-            "priceFlags": [
-              {
-                "code": "discount",
-                "id": 12,
-                "name": "Sale",
-                "detail": "Sale"
-              }
-            ],
-            "productFlags": []
-          },
-          "isFavorite": false,
-          "l2Id": "05351178",
-          "salesStartDate": "",
-          "salesEndDate": ""
-        },
-        "reviews": {
-          "total": 41,
-          "count": 0,
-          "items": []
-        },
-        "shortDescription": "Incredibly quick-drying, and is smooth and feels cool. Single layer that is easy to carry for convenience and design.",
-        "sizeChartUrl": "https://www.uniqlo.com/in/en/size/424222_size.html",
-        "sizeInformation": "",
-        "sizes": [
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
             "display": {
               "showFlag": true,
               "chipType": 0
