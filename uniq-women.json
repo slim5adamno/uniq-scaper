@@ -189,11 +189,6 @@
           "name": "MUSTARD"
         },
         {
-          "code": "COL50",
-          "displayCode": "50",
-          "name": "LIGHT GREEN"
-        },
-        {
           "code": "COL51",
           "displayCode": "51",
           "name": "GREEN"
@@ -358,7 +353,7 @@
         {
           "from": 500,
           "to": 1000,
-          "count": 34
+          "count": 36
         },
         {
           "from": 1000,
@@ -378,59 +373,59 @@
         {
           "from": 4000,
           "to": 0,
-          "count": 10
+          "count": 11
         }
       ],
       "ratings": [
         {
           "rating": 0,
-          "accumulated": 139,
-          "count": 71
+          "accumulated": 142,
+          "count": 73
         },
         {
           "rating": 0.5,
-          "accumulated": 68,
+          "accumulated": 69,
           "count": 0
         },
         {
           "rating": 1,
-          "accumulated": 68,
+          "accumulated": 69,
           "count": 0
         },
         {
           "rating": 1.5,
-          "accumulated": 68,
+          "accumulated": 69,
           "count": 0
         },
         {
           "rating": 2,
-          "accumulated": 68,
+          "accumulated": 69,
           "count": 1
         },
         {
           "rating": 2.5,
-          "accumulated": 67,
+          "accumulated": 68,
           "count": 0
         },
         {
           "rating": 3,
-          "accumulated": 67,
+          "accumulated": 68,
           "count": 1
         },
         {
           "rating": 3.5,
-          "accumulated": 66,
+          "accumulated": 67,
           "count": 1
         },
         {
           "rating": 4,
-          "accumulated": 65,
+          "accumulated": 66,
           "count": 17
         },
         {
           "rating": 4.5,
-          "accumulated": 48,
-          "count": 18
+          "accumulated": 49,
+          "count": 19
         },
         {
           "rating": 5,
@@ -503,6 +498,11 @@
           "code": "INS029",
           "displayCode": "029",
           "name": "29inch"
+        },
+        {
+          "code": "INS030",
+          "displayCode": "030",
+          "name": "30inch"
         },
         {
           "code": "INS034",
@@ -2815,7 +2815,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -3008,7 +3008,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -3168,7 +3168,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -3337,7 +3337,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -3497,7 +3497,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -3518,6 +3518,15 @@
             "code": "SMA004",
             "displayCode": "004",
             "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
             "display": {
               "showFlag": true,
               "chipType": 0
@@ -3663,7 +3672,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -3702,15 +3711,6 @@
             "code": "SMA006",
             "displayCode": "006",
             "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
             "display": {
               "showFlag": true,
               "chipType": 0
@@ -3859,7 +3859,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -4019,7 +4019,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -4197,7 +4197,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -4393,7 +4393,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -4571,7 +4571,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -4601,6 +4601,166 @@
             "code": "SMA006",
             "displayCode": "006",
             "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean"
+      },
+      {
+        "careInstruction": "-",
+        "colors": [
+          {
+            "code": "COL09",
+            "displayCode": "09",
+            "name": "BLACK",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/456994/item/ingoods_09_456994.jpg",
+              "colorCode": "09"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456994/chip/goods_09_456994_chip.jpg",
+              "colorCode": "09"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/456994/sub/ingoods_456994_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456994/sub/goods_456994_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456994/sub/goods_456994_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456994/sub/goods_456994_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456994/sub/goods_456994_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456994/sub/goods_456994_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456994/sub/goods_456994_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456994/sub/goods_456994_sub21.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/456994/sub/ingoods_456994_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/456994/sub/ingoods_456994_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "456994",
+        "longDescription": "20th UT ARCHIVE<br><br>T-shirts from the UT Archive reflect the origins of a diverse array of cultures and artists. From the original art of the Pop Art movement, to legendary manga and streetwear gods. Forever timeless, wearing an original design revived from the UT Archive will never go out of style. Welcome to the UT Archive Project. Now pick the shirt that’s right for you!<br><br>© Estate of Jean-Michel Basquiat. Licensed by Artestar, New York.",
+        "name": "Ut Archive UT (Short Sleeve Graphic T-Shirt)",
+        "prices": {
+          "base": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "1290.0000"
+          },
+          "promo": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "590.0000"
+          }
+        },
+        "productId": "E456994-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": [
+              "display",
+              "sale"
+            ],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": null,
+          "count": 0,
+          "fit": null,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 0
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL09",
+            "displayCode": "09",
+            "name": "BLACK",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [
+              {
+                "code": "discount",
+                "id": 12,
+                "name": "Sale",
+                "detail": "Sale"
+              }
+            ],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07275073",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 39,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "Forever timeless. Proud to announce the 20th anniversary of the UT brand's birth, legendary pieces has been revived!",
+        "sizeChartUrl": "https://www.uniqlo.com/in/en/size/456994_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
             "display": {
               "showFlag": true,
               "chipType": 0
@@ -4749,7 +4909,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -4924,7 +5084,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -5264,6 +5424,15 @@
         "sizeChartUrl": "https://www.uniqlo.com/in/en/size/446638_size.html",
         "sizeInformation": "",
         "sizes": [
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
           {
             "code": "SMA006",
             "displayCode": "006",
@@ -5850,7 +6019,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -6950,7 +7119,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -7110,7 +7279,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -7385,6 +7554,15 @@
               "showFlag": true,
               "chipType": 0
             }
+          },
+          {
+            "code": "COL39",
+            "displayCode": "39",
+            "name": "DARK BROWN",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
           }
         ],
         "composition": "Body: 79% Polyester, 15% Viscose, 6% Elastane/ Rib: 82% Cotton, 18% Polyester",
@@ -7556,6 +7734,24 @@
             "code": "SMA003",
             "displayCode": "003",
             "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
             "display": {
               "showFlag": true,
               "chipType": 0
@@ -8198,6 +8394,166 @@
         "careInstruction": "-",
         "colors": [
           {
+            "code": "COL01",
+            "displayCode": "01",
+            "name": "OFF WHITE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Polyester",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Women",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/448737/item/ingoods_01_448737.jpg",
+              "colorCode": "01"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/448737/item/ingoods_07_448737.jpg",
+              "colorCode": "07"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/448737/chip/goods_01_448737_chip.jpg",
+              "colorCode": "01"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/448737/chip/goods_07_448737_chip.jpg",
+              "colorCode": "07"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/448737/sub/goods_448737_sub13.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/448737/sub/goods_448737_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/448737/sub/goods_448737_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/448737/sub/goods_448737_sub24.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/448737/sub/goods_448737_sub25.jpg"
+            }
+          ]
+        },
+        "l1Id": "448737",
+        "longDescription": "- Made of very soft wool yarn for a warm, soft feel. <br>- Straight pants with a comfortable elastic waistband.",
+        "name": "Soft Fluffy Pants",
+        "prices": {
+          "base": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "1990.0000"
+          },
+          "promo": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "990.0000"
+          }
+        },
+        "productId": "E448737-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": [
+              "display",
+              "sale"
+            ],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": 4.875,
+          "count": 8,
+          "fit": 3,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 1,
+            "five": 7
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL07",
+            "displayCode": "07",
+            "name": "GRAY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [
+              {
+                "code": "discount",
+                "id": 12,
+                "name": "Sale",
+                "detail": "Sale"
+              }
+            ],
+            "productFlags": [
+              {
+                "code": "preSales",
+                "id": 5,
+                "name": "Exclusive Size Online Only",
+                "detail": "Exclusive Size Online Only"
+              }
+            ]
+          },
+          "isFavorite": false,
+          "l2Id": "06831861",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 94,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "Incredibly soft, light and relaxing to wear.",
+        "sizeChartUrl": "https://www.uniqlo.com/in/en/size/448737_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 0,
+        "washingInformation": "Machine wash cold, gentle cycle"
+      },
+      {
+        "careInstruction": "-",
+        "colors": [
+          {
             "code": "COL09",
             "displayCode": "09",
             "name": "BLACK",
@@ -8756,6 +9112,15 @@
             "code": "SMA003",
             "displayCode": "003",
             "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA008",
+            "displayCode": "008",
+            "name": "3XL",
             "display": {
               "showFlag": true,
               "chipType": 0
@@ -9360,7 +9725,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -9701,7 +10066,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -9903,7 +10268,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -13174,6 +13539,15 @@
         "careInstruction": "-",
         "colors": [
           {
+            "code": "COL03",
+            "displayCode": "03",
+            "name": "GRAY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
             "code": "COL09",
             "displayCode": "09",
             "name": "BLACK",
@@ -14301,6 +14675,15 @@
             }
           },
           {
+            "code": "COL12",
+            "displayCode": "12",
+            "name": "PINK",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
             "code": "COL32",
             "displayCode": "32",
             "name": "BEIGE",
@@ -15180,6 +15563,15 @@
             "code": "INS026",
             "displayCode": "026",
             "name": "26inch",
+            "display": {
+              "showFlag": true,
+              "chipType": 1
+            }
+          },
+          {
+            "code": "INS030",
+            "displayCode": "030",
+            "name": "30inch",
             "display": {
               "showFlag": true,
               "chipType": 1
@@ -16901,15 +17293,6 @@
               "showFlag": true,
               "chipType": 0
             }
-          },
-          {
-            "code": "COL50",
-            "displayCode": "50",
-            "name": "LIGHT GREEN",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
           }
         ],
         "composition": "70% Cotton, 30% Polyester",
@@ -17595,7 +17978,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -17819,7 +18202,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -18034,7 +18417,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -18256,7 +18639,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -18450,7 +18833,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 94,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -22007,7 +22390,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -22170,7 +22553,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -22330,7 +22713,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -22508,7 +22891,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -22689,7 +23072,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -22855,7 +23238,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -23068,7 +23451,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -23296,7 +23679,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -26259,7 +26642,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -26430,7 +26813,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -26643,7 +27026,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -26842,7 +27225,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 94,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -27049,7 +27432,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 94,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -27926,6 +28309,196 @@
         "careInstruction": "<br>",
         "colors": [
           {
+            "code": "COL34",
+            "displayCode": "34",
+            "name": "BROWN",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "Shell: 100% Cotton/ Lining: 65% Polyester, 35% Cotton/ Pocket Lining: 65% Polyester, 35% Cotton",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Women",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/452376/item/ingoods_34_452376.jpg",
+              "colorCode": "34"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/452376/item/ingoods_67_452376.jpg",
+              "colorCode": "67"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/452376/chip/goods_34_452376_chip.jpg",
+              "colorCode": "34"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/452376/chip/goods_67_452376_chip.jpg",
+              "colorCode": "67"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/452376/sub/ingoods_452376_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/452376/sub/ingoods_452376_sub8.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/452376/sub/ingoods_452376_sub9.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/452376/sub/goods_452376_sub11.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/452376/sub/goods_452376_sub12.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/452376/sub/goods_452376_sub13.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/452376/sub/goods_452376_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/452376/sub/goods_452376_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/452376/sub/goods_452376_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/452376/sub/goods_452376_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/452376/sub/goods_452376_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/452376/sub/goods_452376_sub21.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/452376/sub/goods_452376_sub22.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/452376/sub/ingoods_452376_sub28.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/452376/sub/ingoods_452376_sub29.jpg"
+            }
+          ]
+        },
+        "l1Id": "452376",
+        "longDescription": "The Uniqlo U collection is the realization of a dedicated and skilled team of international designers based at our Paris Research and Development Center led by Artistic Director Christophe Lemaire.<br><br>- Made of light cotton gabardine. <br>- A slightly oversized car coat with a large interior pocket and saddle sleeves. <br>- Collar easily opens and closes. <br>- Two side slits help keep the body of the coat in place when walking, running, or riding a bike.",
+        "name": "UNIQLO U Single Breasted Coat",
+        "prices": {
+          "base": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "7990.0000"
+          },
+          "promo": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "4990.0000"
+          }
+        },
+        "productId": "E452376-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "name": "-",
+            "isDummy": false,
+            "states": [
+              "display",
+              "sale"
+            ],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": null,
+          "count": 0,
+          "fit": null,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 0
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL67",
+            "displayCode": "67",
+            "name": "BLUE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [
+              {
+                "code": "discount",
+                "id": 12,
+                "name": "Sale",
+                "detail": "Sale"
+              }
+            ],
+            "productFlags": [
+              {
+                "code": "limitedStore",
+                "id": 3,
+                "name": "Limited Store",
+                "detail": "Limited Store"
+              }
+            ]
+          },
+          "isFavorite": false,
+          "l2Id": "07174920",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 94,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "Light fabric slips on with ease. An added slit keeps the hem looking neat despite the relaxed cut.",
+        "sizeChartUrl": "https://www.uniqlo.com/in/en/size/452376_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 0,
+        "washingInformation": "Do not wash, Dry Clean"
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
             "code": "COL56",
             "displayCode": "56",
             "name": "OLIVE",
@@ -28581,7 +29154,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -29062,7 +29635,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -29250,7 +29823,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -29452,7 +30025,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 37,
+          "total": 39,
           "count": 0,
           "items": []
         },
@@ -30191,8 +30764,8 @@
       }
     ],
     "pagination": {
-      "count": 139,
-      "total": 139,
+      "count": 142,
+      "total": 142,
       "offset": 300
     }
   }
