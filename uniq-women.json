@@ -321,6 +321,13 @@
       ],
       "flags": [
         {
+          "code": "limitedOffer",
+          "name": "Limited Offer",
+          "rank": 5,
+          "id": 10,
+          "lazy": true
+        },
+        {
           "code": "discount",
           "name": "Sale",
           "rank": 7,
@@ -363,7 +370,7 @@
         {
           "from": 500,
           "to": 1000,
-          "count": 121
+          "count": 122
         },
         {
           "from": 1000,
@@ -389,53 +396,53 @@
       "ratings": [
         {
           "rating": 0,
-          "accumulated": 209,
+          "accumulated": 210,
           "count": 76
         },
         {
           "rating": 0.5,
-          "accumulated": 133,
+          "accumulated": 134,
           "count": 0
         },
         {
           "rating": 1,
-          "accumulated": 133,
+          "accumulated": 134,
           "count": 0
         },
         {
           "rating": 1.5,
-          "accumulated": 133,
+          "accumulated": 134,
           "count": 0
         },
         {
           "rating": 2,
-          "accumulated": 133,
+          "accumulated": 134,
           "count": 1
         },
         {
           "rating": 2.5,
-          "accumulated": 132,
+          "accumulated": 133,
           "count": 4
         },
         {
           "rating": 3,
-          "accumulated": 128,
+          "accumulated": 129,
           "count": 1
         },
         {
           "rating": 3.5,
-          "accumulated": 127,
+          "accumulated": 128,
           "count": 5
         },
         {
           "rating": 4,
-          "accumulated": 122,
+          "accumulated": 123,
           "count": 17
         },
         {
           "rating": 4.5,
-          "accumulated": 105,
-          "count": 34
+          "accumulated": 106,
+          "count": 35
         },
         {
           "rating": 5,
@@ -775,6 +782,10 @@
         ],
         "subcategories": [
           {
+            "id": 27756,
+            "name": "Airism Boat Neck"
+          },
+          {
             "id": 22367,
             "name": "AIRism"
           },
@@ -783,28 +794,28 @@
             "name": "Bags"
           },
           {
-            "id": 12268,
-            "name": "Jersey"
-          },
-          {
             "id": 22347,
             "name": "Jeans"
           },
           {
-            "id": 22352,
-            "name": "Casual Pants"
+            "id": 12268,
+            "name": "Jersey"
+          },
+          {
+            "id": 22374,
+            "name": "Loungewear & Pajamas"
           },
           {
             "id": 27749,
             "name": "Linen"
           },
           {
-            "id": 22371,
-            "name": "Underwear"
+            "id": 22352,
+            "name": "Casual Pants"
           },
           {
-            "id": 22374,
-            "name": "Loungewear & Pajamas"
+            "id": 22371,
+            "name": "Underwear"
           },
           {
             "id": 13095,
@@ -819,28 +830,28 @@
             "name": "Inner Tops"
           },
           {
-            "id": 22366,
-            "name": "HEATTECH"
+            "id": 22339,
+            "name": "Rayon"
           },
           {
             "id": 22353,
             "name": "Ankle Pants & Cropped Pants"
           },
           {
-            "id": 22339,
-            "name": "Rayon"
+            "id": 22366,
+            "name": "HEATTECH"
           },
           {
-            "id": 22373,
-            "name": "Others"
+            "id": 22350,
+            "name": "Trousers"
           },
           {
             "id": 22375,
             "name": "Relaco"
           },
           {
-            "id": 22350,
-            "name": "Trousers"
+            "id": 22373,
+            "name": "Others"
           },
           {
             "id": 22377,
@@ -879,12 +890,12 @@
             "name": "Shirts & Blouses"
           },
           {
-            "id": 22356,
-            "name": "Others"
-          },
-          {
             "id": 23541,
             "name": "Accessories"
+          },
+          {
+            "id": 22356,
+            "name": "Others"
           },
           {
             "id": 31239,
@@ -919,44 +930,56 @@
             "name": "AIRism"
           },
           {
-            "id": 12286,
-            "name": "Ankle"
+            "id": 27750,
+            "name": "U Crew"
           },
           {
             "id": 23511,
             "name": "Shoulder Bags"
           },
           {
+            "id": 12286,
+            "name": "Ankle"
+          },
+          {
             "id": 19928,
             "name": "High Rise"
-          },
-          {
-            "id": 12282,
-            "name": "Skinny Fit"
-          },
-          {
-            "id": 31102,
-            "name": "Sale"
           },
           {
             "id": 31153,
             "name": "Cropped"
           },
           {
+            "id": 31102,
+            "name": "Sale"
+          },
+          {
+            "id": 12282,
+            "name": "Skinny Fit"
+          },
+          {
             "id": 16023,
             "name": "Uniqlo and Mame Kurogouchi"
+          },
+          {
+            "id": 12200,
+            "name": "AIRism"
+          },
+          {
+            "id": 12197,
+            "name": "Half Sleeve T-Shirts"
           },
           {
             "id": 27751,
             "name": "Oversized"
           },
           {
-            "id": 12204,
-            "name": "Ribbed"
-          },
-          {
             "id": 30899,
             "name": "Sale"
+          },
+          {
+            "id": 12204,
+            "name": "Ribbed"
           },
           {
             "id": 12201,
@@ -1031,20 +1054,16 @@
             "name": "Denim"
           },
           {
-            "id": 43219,
-            "name": "Ribbed"
-          },
-          {
-            "id": 12320,
-            "name": "Easy"
+            "id": 43217,
+            "name": "Polo"
           },
           {
             "id": 31103,
             "name": "Sale"
           },
           {
-            "id": 43217,
-            "name": "Polo"
+            "id": 12320,
+            "name": "Easy"
           },
           {
             "id": 43213,
@@ -1052,10 +1071,6 @@
           },
           {
             "id": 31801,
-            "name": "Sale"
-          },
-          {
-            "id": 41223,
             "name": "Sale"
           },
           {
@@ -1135,20 +1150,12 @@
             "name": "Sale"
           },
           {
-            "id": 41234,
-            "name": "Sports"
-          },
-          {
             "id": 12311,
             "name": "Ponte"
           },
           {
             "id": 11596,
             "name": "Others"
-          },
-          {
-            "id": 41238,
-            "name": "Square"
           },
           {
             "id": 31247,
@@ -8560,7 +8567,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 9,
+          "total": 10,
           "count": 0,
           "items": []
         },
@@ -8731,7 +8738,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 9,
+          "total": 10,
           "count": 0,
           "items": []
         },
@@ -8922,7 +8929,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 9,
+          "total": 10,
           "count": 0,
           "items": []
         },
@@ -9102,7 +9109,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 9,
+          "total": 10,
           "count": 0,
           "items": []
         },
@@ -9273,7 +9280,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 9,
+          "total": 10,
           "count": 0,
           "items": []
         },
@@ -15500,7 +15507,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 96,
+          "total": 10,
           "count": 0,
           "items": []
         },
@@ -22016,7 +22023,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 9,
+          "total": 10,
           "count": 0,
           "items": []
         },
@@ -22217,7 +22224,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 9,
+          "total": 10,
           "count": 0,
           "items": []
         },
@@ -22394,7 +22401,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 9,
+          "total": 10,
           "count": 0,
           "items": []
         },
@@ -26887,6 +26894,342 @@
         "careInstruction": "<br>",
         "colors": [
           {
+            "code": "COL00",
+            "displayCode": "00",
+            "name": "WHITE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "COL03",
+            "displayCode": "03",
+            "name": "GRAY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "COL09",
+            "displayCode": "09",
+            "name": "BLACK",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "COL22",
+            "displayCode": "22",
+            "name": "ORANGE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "COL54",
+            "displayCode": "54",
+            "name": "GREEN",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "COL61",
+            "displayCode": "61",
+            "name": "BLUE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "78% Polyester, 17% Lyocell, 5% Elastane",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Women",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/444524/item/ingoods_00_444524.jpg",
+              "colorCode": "00"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/444524/item/ingoods_03_444524.jpg",
+              "colorCode": "03"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/444524/item/ingoods_09_444524.jpg",
+              "colorCode": "09"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/444524/item/ingoods_11_444524.jpg",
+              "colorCode": "11"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/444524/item/ingoods_22_444524.jpg",
+              "colorCode": "22"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/item/goods_43_444524.jpg",
+              "colorCode": "43"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/item/goods_50_444524.jpg",
+              "colorCode": "50"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/444524/item/ingoods_53_444524.jpg",
+              "colorCode": "53"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/444524/item/ingoods_54_444524.jpg",
+              "colorCode": "54"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/444524/item/ingoods_61_444524.jpg",
+              "colorCode": "61"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/chip/goods_00_444524_chip.jpg",
+              "colorCode": "00"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/chip/goods_03_444524_chip.jpg",
+              "colorCode": "03"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/chip/goods_09_444524_chip.jpg",
+              "colorCode": "09"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/chip/goods_11_444524_chip.jpg",
+              "colorCode": "11"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/chip/goods_22_444524_chip.jpg",
+              "colorCode": "22"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/chip/goods_43_444524_chip.jpg",
+              "colorCode": "43"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/chip/goods_50_444524_chip.jpg",
+              "colorCode": "50"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/chip/goods_53_444524_chip.jpg",
+              "colorCode": "53"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/chip/goods_54_444524_chip.jpg",
+              "colorCode": "54"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/chip/goods_61_444524_chip.jpg",
+              "colorCode": "61"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/444524/sub/ingoods_444524_sub7.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/444524/sub/ingoods_444524_sub8.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/444524/sub/ingoods_444524_sub9.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/sub/goods_444524_sub11.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/sub/goods_444524_sub12.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/sub/goods_444524_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/sub/goods_444524_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/sub/goods_444524_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/sub/goods_444524_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/sub/goods_444524_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444524/sub/goods_444524_sub23.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/444524/sub/ingoods_444524_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "456265",
+        "longDescription": "- Made using AIRism with its matte finish and smooth feel. <br>- Relaxed cut. <br>- Flattering boat neck. <br>- Shirt tail that hides the hips and flatters the legs. <br>- Seamless hems. <br>- A silhouette and length that goes well with leggings. - A versatile item for sports or everyday wear.",
+        "name": "AIRism Seamless Boat Neck Long T-Shirt",
+        "prices": {
+          "base": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "1290.0000"
+          },
+          "promo": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "990.0000"
+          }
+        },
+        "productId": "E444524-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "displayOrder": 1,
+            "name": "-",
+            "isDummy": false,
+            "states": [
+              "display",
+              "sale"
+            ],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": 5,
+          "count": 8,
+          "fit": 3.25,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 8
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL22",
+            "displayCode": "22",
+            "name": "ORANGE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [
+              {
+                "code": "limitedOffer",
+                "id": 10,
+                "name": "Limited Offer",
+                "detail": "Limited Offer Until Jul 27"
+              }
+            ],
+            "productFlags": [
+              {
+                "code": "preSales",
+                "id": 5,
+                "name": "Exclusive Size Online Only",
+                "detail": "Exclusive Size Online Only"
+              }
+            ]
+          },
+          "isFavorite": false,
+          "l2Id": "07445598",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 96,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "Breezy and lightweight feel. The matte texture and longer length make them more flattering to wear.",
+        "sizeChartUrl": "https://www.uniqlo.com/in/en/size/444524_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 0,
+        "washingInformation": "Machine wash cold, gentle cycle"
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
             "code": "COL09",
             "displayCode": "09",
             "name": "BLACK",
@@ -27307,7 +27650,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 9,
+          "total": 10,
           "count": 0,
           "items": []
         },
@@ -43907,8 +44250,8 @@
       }
     ],
     "pagination": {
-      "count": 209,
-      "total": 209,
+      "count": 210,
+      "total": 210,
       "offset": 300
     }
   }
