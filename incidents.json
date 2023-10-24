@@ -432,6 +432,11 @@
           "name": "33inch"
         },
         {
+          "code": "INS034",
+          "displayCode": "034",
+          "name": "34inch"
+        },
+        {
           "code": "INS035",
           "displayCode": "035",
           "name": "35inch"
@@ -20780,6 +20785,15 @@
             }
           },
           {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
             "code": "SMA008",
             "displayCode": "008",
             "name": "3XL",
@@ -22383,6 +22397,15 @@
             "code": "INS028",
             "displayCode": "028",
             "name": "28inch",
+            "display": {
+              "showFlag": true,
+              "chipType": 1
+            }
+          },
+          {
+            "code": "INS034",
+            "displayCode": "034",
+            "name": "34inch",
             "display": {
               "showFlag": true,
               "chipType": 1
@@ -24774,19 +24797,13 @@
         "longDescription": "- Improved fabric with a pilling-resistant lining in response to customer feedback. <br>- Fine texture with a sumptuously soft touch. <br>- Quick-drying hood lining. <br>- Contoured hood. <br>- Neat and convenient side pockets. <br>- Premium spindle heads and eyelets.",
         "name": "Sweat Pullover Hoodie",
         "prices": {
+          "promo": null,
           "base": {
             "currency": {
               "code": "INR",
               "symbol": "Rs."
             },
             "value": "3990.0000"
-          },
-          "promo": {
-            "currency": {
-              "code": "INR",
-              "symbol": "Rs."
-            },
-            "value": "2990.0000"
           }
         },
         "productId": "E444967-000",
@@ -24821,24 +24838,23 @@
         },
         "representative": {
           "color": {
-            "code": "COL66",
-            "displayCode": "66",
-            "name": "BLUE",
+            "code": "COL01",
+            "displayCode": "01",
+            "name": "OFF WHITE",
             "display": {
               "showFlag": true,
               "chipType": 0
             }
           },
           "flags": {
-            "priceFlags": [
-              {
-                "code": "discount",
-                "id": 12,
-                "name": "Sale",
-                "detail": "Sale"
-              }
-            ],
+            "priceFlags": [],
             "productFlags": [
+              {
+                "code": "preSales",
+                "id": 5,
+                "name": "Exclusive Size Online Only",
+                "detail": "Exclusive Size Online Only"
+              },
               {
                 "code": "limitedStore",
                 "id": 3,
@@ -24848,7 +24864,7 @@
             ]
           },
           "isFavorite": false,
-          "l2Id": "07606004",
+          "l2Id": "07331909",
           "salesStartDate": "",
           "salesEndDate": ""
         },
