@@ -84,6 +84,11 @@
           "name": "BEIGE"
         },
         {
+          "code": "COL32",
+          "displayCode": "32",
+          "name": "BEIGE"
+        },
+        {
           "code": "COL37",
           "displayCode": "37",
           "name": "BROWN"
@@ -170,17 +175,17 @@
         {
           "from": 300,
           "to": 500,
-          "count": 3
+          "count": 4
         },
         {
           "from": 500,
           "to": 1000,
-          "count": 5
+          "count": 7
         },
         {
           "from": 1000,
           "to": 2000,
-          "count": 20
+          "count": 21
         },
         {
           "from": 2000,
@@ -201,61 +206,66 @@
       "ratings": [
         {
           "rating": 0,
-          "accumulated": 32,
-          "count": 8
+          "accumulated": 36,
+          "count": 9
         },
         {
           "rating": 0.5,
-          "accumulated": 24,
+          "accumulated": 27,
           "count": 0
         },
         {
           "rating": 1,
-          "accumulated": 24,
+          "accumulated": 27,
           "count": 0
         },
         {
           "rating": 1.5,
-          "accumulated": 24,
+          "accumulated": 27,
           "count": 0
         },
         {
           "rating": 2,
-          "accumulated": 24,
+          "accumulated": 27,
           "count": 0
         },
         {
           "rating": 2.5,
-          "accumulated": 24,
+          "accumulated": 27,
           "count": 0
         },
         {
           "rating": 3,
-          "accumulated": 24,
-          "count": 1
+          "accumulated": 27,
+          "count": 2
         },
         {
           "rating": 3.5,
-          "accumulated": 23,
+          "accumulated": 25,
           "count": 0
         },
         {
           "rating": 4,
-          "accumulated": 23,
+          "accumulated": 25,
           "count": 4
         },
         {
           "rating": 4.5,
-          "accumulated": 19,
+          "accumulated": 21,
           "count": 14
         },
         {
           "rating": 5,
-          "accumulated": 5,
-          "count": 5
+          "accumulated": 7,
+          "count": 7
         }
       ],
       "sizes": [
+        {
+          "code": "CMD064",
+          "displayCode": "064",
+          "name": "64cm"
+        },
         {
           "code": "SIZ999",
           "displayCode": "999",
@@ -295,6 +305,11 @@
           "code": "SMA008",
           "displayCode": "008",
           "name": "3XL"
+        },
+        {
+          "code": "WSC023",
+          "displayCode": "023",
+          "name": "23-25cm"
         }
       ],
       "tree": {
@@ -416,6 +431,10 @@
             "name": "All Innerwear"
           },
           {
+            "id": 11604,
+            "name": "HEATTECH Innerwear"
+          },
+          {
             "id": 11602,
             "name": "Underwear"
           },
@@ -434,6 +453,10 @@
           {
             "id": 23456,
             "name": "Bags"
+          },
+          {
+            "id": 11620,
+            "name": "Socks"
           },
           {
             "id": 42317,
@@ -506,6 +529,10 @@
             "name": "Wide"
           },
           {
+            "id": 13102,
+            "name": "Uniqlo U"
+          },
+          {
             "id": 12296,
             "name": "Sweat"
           },
@@ -520,6 +547,10 @@
           {
             "id": 41221,
             "name": "Jogger"
+          },
+          {
+            "id": 11596,
+            "name": "Others"
           },
           {
             "id": 28468,
@@ -574,12 +605,20 @@
             "name": "Crew Neck"
           },
           {
+            "id": 49243,
+            "name": "Unisex"
+          },
+          {
             "id": 22346,
             "name": "Others"
           },
           {
             "id": 67567,
             "name": "3/4 Sleeve"
+          },
+          {
+            "id": 67568,
+            "name": "Short Sleeve"
           },
           {
             "id": 12174,
@@ -674,8 +713,16 @@
             "name": "Sweat"
           },
           {
+            "id": 22366,
+            "name": "HEATTECH"
+          },
+          {
             "id": 22371,
             "name": "Underwear"
+          },
+          {
+            "id": 12363,
+            "name": "Ultra Warm"
           },
           {
             "id": 12354,
@@ -718,8 +765,24 @@
             "name": "Bags"
           },
           {
+            "id": 49303,
+            "name": "HEATTECH"
+          },
+          {
+            "id": 24732,
+            "name": "Socks"
+          },
+          {
             "id": 23511,
             "name": "Shoulder Bags"
+          },
+          {
+            "id": 12402,
+            "name": "HEATTECH"
+          },
+          {
+            "id": 12400,
+            "name": "Regular"
           },
           {
             "id": 42321,
@@ -741,6 +804,181 @@
       }
     },
     "items": [
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL31",
+            "displayCode": "31",
+            "name": "BEIGE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "51% Acrylic, 19% Polyamide, 16% Viscose, 11% Modal, 2% Elastane, 1% Polyester",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Women",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460490/item/goods_00_460490.jpg",
+              "colorCode": "00"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460490/item/goods_09_460490.jpg",
+              "colorCode": "09"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460490/item/goods_11_460490.jpg",
+              "colorCode": "11"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460490/item/goods_31_460490.jpg",
+              "colorCode": "31"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460490/item/goods_69_460490.jpg",
+              "colorCode": "69"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460490/chip/goods_00_460490_chip.jpg",
+              "colorCode": "00"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460490/chip/goods_09_460490_chip.jpg",
+              "colorCode": "09"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460490/chip/goods_11_460490_chip.jpg",
+              "colorCode": "11"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460490/chip/goods_31_460490_chip.jpg",
+              "colorCode": "31"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460490/chip/goods_69_460490_chip.jpg",
+              "colorCode": "69"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460490/sub/goods_460490_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460490/sub/goods_460490_sub23.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/460490/sub/ingoods_460490_sub28.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/460490/sub/ingoods_460490_sub30.jpg"
+            }
+          ]
+        },
+        "l1Id": "460490",
+        "longDescription": "- Warm ‘HEATTECH’ with HEAT RETENTION, Heat Absorption, anti-odor, and odor control comfort features. <br>- Frills add a style accent at the ankle. <br>- Thin fabric with a lettuce-edge finish at the leg opening for a non-restrictive feel.",
+        "name": "HEATTECH Socks (Crew Mellow)",
+        "prices": {
+          "base": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "490.0000"
+          },
+          "promo": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "390.0000"
+          }
+        },
+        "productId": "E460490-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "displayOrder": 1,
+            "name": "-",
+            "isDummy": false,
+            "states": [
+              "display",
+              "sale"
+            ],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": null,
+          "count": 0,
+          "fit": null,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 0
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL00",
+            "displayCode": "00",
+            "name": "WHITE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [
+              {
+                "code": "discount",
+                "id": 12,
+                "name": "Sale",
+                "detail": "Sale"
+              }
+            ],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "07720140",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 36,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "Warm and toasty ‘HEATTECH’ packed with high-performance comfort features. Frills add a subtle style accent.",
+        "sizeChartUrl": "https://www.uniqlo.com/in/en/size/460490_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "WSC023",
+            "displayCode": "023",
+            "name": "23-25cm",
+            "display": {
+              "showFlag": true,
+              "chipType": 1
+            }
+          }
+        ],
+        "unisexFlag": 0,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Do not tumble dry."
+      },
       {
         "careInstruction": "<br>",
         "colors": [
@@ -893,7 +1131,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -1063,7 +1301,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -1242,7 +1480,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -1262,6 +1500,349 @@
         ],
         "unisexFlag": 0,
         "washingInformation": "Machine wash cold, gentle cycle, Do not Dry Clean, Do not tumble dry."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL58",
+            "displayCode": "58",
+            "name": "DARK GREEN",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton",
+        "designDetail": "",
+        "freeInformation": "SHAHI EXPORTS PVT.LTD., Industrial Plot No. 1, near Metro Station, Sector 28, Faridabad, Haryana 121008",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462438/item/goods_58_462438.jpg",
+              "colorCode": "58"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462438/chip/goods_58_462438_chip.jpg",
+              "colorCode": "58"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462438/sub/goods_462438_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462438/sub/goods_462438_sub15.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462438/sub/goods_462438_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462438/sub/goods_462438_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/462438/sub/ingoods_462438_sub26.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/462438/sub/ingoods_462438_sub28.jpg"
+            }
+          ]
+        },
+        "l1Id": "462438",
+        "longDescription": "Pieck and Porco join hands to make a surprise attack on Eren. Eren chooses to become a Titan in order to fight back after being taken off guard by Porco. The scene is printed prominently on the front of the T-shirt. Eren is surrounded by steam as he transforms into a Titan, and his thunderous roar is highlighted in red, adding to the design’s color palette.<br><br>Attack on titan<br><br>The popular manga series written and illustrated by Hajime Isayama was serialized in “Bessatsu Shonen Magazine” from 2009 to 2021, the cumulative circulation has exceeded 110 million copies worldwide, and it continues to create shock waves not only in Japan but also around the world. These UT are inspired by this manga which captures the reader’s attention with a world where humanity is forced to live in cities surrounded by enormous “walls” that protect them from gigantic man-eating humanoids referred to as Titans, and “Vertical maneuvering equipment” developed to combat the Titans.<br><br>©Hajime Isayama / Kodansha Ltd.",
+        "name": "Attack On Titan UT (Short Sleeve Graphic T-Shirt)",
+        "prices": {
+          "base": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "1490.0000"
+          },
+          "promo": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "590.0000"
+          }
+        },
+        "productId": "E462438-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "displayOrder": 1,
+            "name": "-",
+            "isDummy": false,
+            "states": [
+              "display",
+              "sale"
+            ],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": 5,
+          "count": 2,
+          "fit": 2.5,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 2
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL58",
+            "displayCode": "58",
+            "name": "DARK GREEN",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [
+              {
+                "code": "discount",
+                "id": 12,
+                "name": "Sale",
+                "detail": "Sale"
+              }
+            ],
+            "productFlags": [
+              {
+                "code": "preSales",
+                "id": 5,
+                "name": "Exclusive Size Online Only",
+                "detail": "Exclusive Size Online Only"
+              }
+            ]
+          },
+          "isFavorite": false,
+          "l2Id": "07602592",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 36,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "The TV anime “Attack on Titan” The Final Season.Humanity vs. Titans. A superb collection befitting the conclusion of this turbulent story.",
+        "sizeChartUrl": "https://www.uniqlo.com/in/en/size/462438_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL32",
+            "displayCode": "32",
+            "name": "BEIGE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "Body: 100% Cotton/ Pocket Lining: 65% Polyester, 35% Cotton",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.<br><br>■Inseam alteration is available for this product<br>- Depending on the length of the alteration, a seam may remain after the thread is unwound. Also, products with a distressed finish will not have distressed hems after inseam alteration. Your understanding is appreciated. <br>- Please refer to \"Alteration Finishes\" for alteration specifications.",
+        "genderName": "Women",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/461663/item/ingoods_07_461663.jpg",
+              "colorCode": "07"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/461663/item/ingoods_09_461663.jpg",
+              "colorCode": "09"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/461663/item/ingoods_32_461663.jpg",
+              "colorCode": "32"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461663/chip/goods_07_461663_chip.jpg",
+              "colorCode": "07"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461663/chip/goods_09_461663_chip.jpg",
+              "colorCode": "09"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461663/chip/goods_32_461663_chip.jpg",
+              "colorCode": "32"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/461663/sub/ingoods_461663_sub8.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/461663/sub/ingoods_461663_sub9.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461663/sub/goods_461663_sub11.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461663/sub/goods_461663_sub12.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461663/sub/goods_461663_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461663/sub/goods_461663_sub17.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461663/sub/goods_461663_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461663/sub/goods_461663_sub19.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461663/sub/goods_461663_sub20.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/461663/sub/ingoods_461663_sub28.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/461663/sub/ingoods_461663_sub29.jpg"
+            }
+          ]
+        },
+        "l1Id": "461663",
+        "longDescription": "The Uniqlo U collection is the realization of a dedicated and skilled team of international designers based at our Paris Research and Development Center led by Artistic Director Christophe Lemaire.<br><br>- Thick cotton twill fabric. <br>- Curved, casual outline. <br>- Featuring side pockets.",
+        "name": "Chino Trousers",
+        "prices": {
+          "base": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "3990.0000"
+          },
+          "promo": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "590.0000"
+          }
+        },
+        "productId": "E461663-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "displayOrder": 1,
+            "name": "-",
+            "isDummy": false,
+            "states": [
+              "display",
+              "sale"
+            ],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": 3,
+          "count": 1,
+          "fit": 2,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 1,
+            "four": 0,
+            "five": 0
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL32",
+            "displayCode": "32",
+            "name": "BEIGE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [
+              {
+                "code": "discount",
+                "id": 12,
+                "name": "Sale",
+                "detail": "Sale"
+              }
+            ],
+            "productFlags": [
+              {
+                "code": "limitedStore",
+                "id": 3,
+                "name": "Limited Store",
+                "detail": "Limited Store"
+              }
+            ]
+          },
+          "isFavorite": false,
+          "l2Id": "07840349",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 36,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "The distinctive feel of chino fabric. Accented by side pockets.",
+        "sizeChartUrl": "https://www.uniqlo.com/in/en/size/461663_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "CMD064",
+            "displayCode": "064",
+            "name": "64cm",
+            "display": {
+              "showFlag": true,
+              "chipType": 1
+            }
+          }
+        ],
+        "unisexFlag": 0,
+        "washingInformation": "Machine wash cold, Dry Clean, Do not tumble dry."
       },
       {
         "careInstruction": "<br>",
@@ -1459,7 +2040,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -1652,7 +2233,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -1845,7 +2426,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -2001,7 +2582,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -2185,7 +2766,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -2549,7 +3130,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -2721,7 +3302,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -2906,7 +3487,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -3144,7 +3725,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -3209,6 +3790,207 @@
         ],
         "unisexFlag": 0,
         "washingInformation": "Machine wash cold, gentle cycle, Dry Clean, Do not tumble dry."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL01",
+            "displayCode": "01",
+            "name": "OFF WHITE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "COL08",
+            "displayCode": "08",
+            "name": "DARK GRAY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "41% Acrylic, 37% Polyester, 18% Viscose, 4% Elastane",
+        "designDetail": "",
+        "freeInformation": "SEZ, Pudimadaka Road, Atchutapuram Mandal, Visakhapatnam, 531011, Andhra Pradesh, India",
+        "genderName": "Women",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460407/item/goods_01_460407.jpg",
+              "colorCode": "01"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460407/item/goods_08_460407.jpg",
+              "colorCode": "08"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460407/item/goods_09_460407.jpg",
+              "colorCode": "09"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460407/item/goods_69_460407.jpg",
+              "colorCode": "69"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460407/chip/goods_01_460407_chip.jpg",
+              "colorCode": "01"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460407/chip/goods_08_460407_chip.jpg",
+              "colorCode": "08"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460407/chip/goods_09_460407_chip.jpg",
+              "colorCode": "09"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460407/chip/goods_69_460407_chip.jpg",
+              "colorCode": "69"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460407/sub/goods_460407_sub13.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460407/sub/goods_460407_sub14.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460407/sub/goods_460407_sub18.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/460407/sub/ingoods_460407_sub23.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/460407/sub/ingoods_460407_sub28.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/460407/sub/ingoods_460407_sub29.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/460407/sub/ingoods_460407_sub30.jpg"
+            }
+          ]
+        },
+        "l1Id": "460407",
+        "longDescription": "- 2.25 times warmer than our regular HEATTECH. *Based on CLO values, which measure clothing's thermal resistance. Comparison with standard 'HEATTECH'. <br>- High-performance fabric with Heat Absorption, HEAT RETENTION, and moisture-wicking comfort features. <br>- A warm layer with a fluffy, brushed lining. <br>- Stretch fabric allows easy movement even when layered. <br>- Warm, high neck with a comfortable fit.",
+        "name": "HEATTECH Ultra Warm High Neck T-Shirt",
+        "prices": {
+          "base": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "2490.0000"
+          },
+          "promo": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "1490.0000"
+          }
+        },
+        "productId": "E460407-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "displayOrder": 1,
+            "name": "-",
+            "isDummy": false,
+            "states": [
+              "display",
+              "sale"
+            ],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": 5,
+          "count": 5,
+          "fit": 2.6,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 0,
+            "five": 5
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL08",
+            "displayCode": "08",
+            "name": "DARK GRAY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [
+              {
+                "code": "discount",
+                "id": 12,
+                "name": "Sale",
+                "detail": "Sale"
+              }
+            ],
+            "productFlags": [
+              {
+                "code": "preSales",
+                "id": 5,
+                "name": "Exclusive Size Online Only",
+                "detail": "Exclusive Size Online Only"
+              }
+            ]
+          },
+          "isFavorite": false,
+          "l2Id": "07785560",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 36,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "Ultra Warm is 2.25 times* warmer than our regular HEATTECH. Updated fabric with a smooth, brushed feel.",
+        "sizeChartUrl": "https://www.uniqlo.com/in/en/size/460407_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA002",
+            "displayCode": "002",
+            "name": "XS",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 0,
+        "washingInformation": "Machine wash cold, gentle cycle, Do not Dry Clean, Do not tumble dry."
       },
       {
         "careInstruction": "<br>",
@@ -3376,7 +4158,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -3606,7 +4388,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -3823,7 +4605,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -4054,7 +4836,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -4315,7 +5097,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -4581,7 +5363,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -4812,7 +5594,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -4983,7 +5765,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -5169,7 +5951,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -5352,7 +6134,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -5520,7 +6302,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -5736,7 +6518,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -5943,7 +6725,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -6132,7 +6914,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -6291,7 +7073,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -6569,7 +7351,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -6788,7 +7570,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -7077,7 +7859,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -7255,7 +8037,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -7551,7 +8333,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 32,
+          "total": 36,
           "count": 0,
           "items": []
         },
@@ -7583,8 +8365,8 @@
       }
     ],
     "pagination": {
-      "count": 32,
-      "total": 32,
+      "count": 36,
+      "total": 36,
       "offset": 300
     }
   }
