@@ -17079,13 +17079,19 @@
         "longDescription": "- Cool stretch chambray fabric made using slub yarns. <br>- Distinct faded look. <br>- Front fly design with a slide fastener closure. <br>- Elastic waistband with a drawstring for size adjustment. <br>- Suitable for year-round wear inside or outside the home.",
         "name": "Stretch Easy Shorts (Chambray)",
         "prices": {
-          "promo": null,
           "base": {
             "currency": {
               "code": "INR",
               "symbol": "Rs."
             },
             "value": "1990.0000"
+          },
+          "promo": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "990.0000"
           }
         },
         "productId": "E455900-000",
@@ -17120,27 +17126,40 @@
         },
         "representative": {
           "color": {
-            "code": "COL63",
-            "displayCode": "63",
-            "name": "BLUE",
+            "code": "COL07",
+            "displayCode": "07",
+            "name": "GRAY",
             "display": {
               "showFlag": true,
               "chipType": 0
             }
           },
           "flags": {
-            "priceFlags": [],
+            "priceFlags": [
+              {
+                "code": "discount",
+                "id": 12,
+                "name": "Sale",
+                "detail": "Sale"
+              }
+            ],
             "productFlags": [
               {
                 "code": "preSales",
                 "id": 5,
                 "name": "Exclusive Size Online Only",
                 "detail": "Exclusive Size Online Only"
+              },
+              {
+                "code": "limitedStore",
+                "id": 3,
+                "name": "Limited Store",
+                "detail": "Limited Store"
               }
             ]
           },
           "isFavorite": false,
-          "l2Id": "07918992",
+          "l2Id": "07918976",
           "salesStartDate": "",
           "salesEndDate": ""
         },
