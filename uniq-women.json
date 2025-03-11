@@ -8854,13 +8854,19 @@
         "longDescription": "<br>",
         "name": "Pleated Wide Pants",
         "prices": {
-          "promo": null,
           "base": {
             "currency": {
               "code": "INR",
               "symbol": "Rs."
             },
             "value": "2990.0000"
+          },
+          "promo": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "1490.0000"
           }
         },
         "productId": "E460311-000",
@@ -8895,16 +8901,23 @@
         },
         "representative": {
           "color": {
-            "code": "COL55",
-            "displayCode": "55",
-            "name": "GREEN",
+            "code": "COL56",
+            "displayCode": "56",
+            "name": "OLIVE",
             "display": {
               "showFlag": true,
               "chipType": 0
             }
           },
           "flags": {
-            "priceFlags": [],
+            "priceFlags": [
+              {
+                "code": "discount",
+                "id": 12,
+                "name": "Sale",
+                "detail": "Sale"
+              }
+            ],
             "productFlags": [
               {
                 "code": "extraLargeStoreOnly",
@@ -8915,7 +8928,7 @@
             ]
           },
           "isFavorite": false,
-          "l2Id": "08371146",
+          "l2Id": "08153315",
           "salesStartDate": "",
           "salesEndDate": ""
         },
@@ -17615,15 +17628,6 @@
             "code": "SMA005",
             "displayCode": "005",
             "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
             "display": {
               "showFlag": true,
               "chipType": 0
