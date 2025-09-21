@@ -291,6 +291,13 @@
       ],
       "flags": [
         {
+          "code": "newPrice",
+          "name": "Reduced GST Price",
+          "rank": 6,
+          "id": 4,
+          "lazy": false
+        },
+        {
           "code": "discount",
           "name": "Sale",
           "rank": 7,
@@ -309,13 +316,6 @@
           "name": "New Arrivals",
           "rank": 9,
           "id": 6,
-          "lazy": false
-        },
-        {
-          "code": "newSKU",
-          "name": "New Color",
-          "rank": 10,
-          "id": 7,
           "lazy": false
         },
         {
@@ -371,7 +371,7 @@
         {
           "from": 2000,
           "to": 3000,
-          "count": 61
+          "count": 62
         },
         {
           "from": 3000,
@@ -387,8 +387,8 @@
       "ratings": [
         {
           "rating": 0,
-          "accumulated": 245,
-          "count": 90
+          "accumulated": 246,
+          "count": 91
         },
         {
           "rating": 0.5,
@@ -1109,6 +1109,10 @@
             "name": "Flannel"
           },
           {
+            "id": 101967,
+            "name": "Fleece"
+          },
+          {
             "id": 12646,
             "name": "Sweat"
           },
@@ -1123,10 +1127,6 @@
           {
             "id": 101972,
             "name": "Flannel Pants"
-          },
-          {
-            "id": 101973,
-            "name": "Fleece"
           },
           {
             "id": 101971,
@@ -40685,6 +40685,262 @@
         "careInstruction": "<br>",
         "colors": [
           {
+            "code": "COL04",
+            "displayCode": "04",
+            "name": "GRAY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "COL08",
+            "displayCode": "08",
+            "name": "DARK GRAY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "COL09",
+            "displayCode": "09",
+            "name": "BLACK",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "COL68",
+            "displayCode": "68",
+            "name": "BLUE",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "[04 GRAY, 08 DARK GRAY] Body: 100% Polyester ( 32% Uses Recycled Polyester Fiber )/ Pocket Lining: Inner Layer: 100% Polyester ( 32% Uses Recycled Polyester Fiber )/ Outer Layer: 100% Polyester [09 BLACK, 68 BLUE] Body: 100% Polyester ( 30% Uses Recycled Polyester Fiber )/ Pocket Lining: Inner Layer: 100% Polyester ( 30% Uses Recycled Polyester Fiber )/ Outer Layer: 100% Polyester",
+        "designDetail": "- Fit: Regular<br>- Silhouette: Tapered<br>- Pockets: With Pockets",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Men",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479933/item/ingoods_04_479933_3x4.jpg",
+              "colorCode": "04"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479933/item/ingoods_08_479933_3x4.jpg",
+              "colorCode": "08"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479933/item/ingoods_09_479933_3x4.jpg",
+              "colorCode": "09"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479933/item/ingoods_68_479933_3x4.jpg",
+              "colorCode": "68"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/479933/chip/goods_04_479933_chip.jpg",
+              "colorCode": "04"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/479933/chip/goods_08_479933_chip.jpg",
+              "colorCode": "08"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/479933/chip/goods_09_479933_chip.jpg",
+              "colorCode": "09"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/479933/chip/goods_68_479933_chip.jpg",
+              "colorCode": "68"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479933/sub/ingoods_479933_sub1_3x4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479933/sub/ingoods_479933_sub5_3x4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/479933/sub/goods_479933_sub14_3x4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/479933/sub/goods_479933_sub15_3x4.jpg"
+            }
+          ],
+          "features": [
+            {
+              "imageUrl": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479933/feature/ingoods_479933_feature1.jpg",
+              "text": "Elegant, warm fleece with a knitted look."
+            },
+            {
+              "imageUrl": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479933/feature/ingoods_479933_feature2.jpg",
+              "text": "The sleek waist and straight silhouette create an elegantly casual style."
+            },
+            {
+              "imageUrl": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479933/feature/ingoods_479933_feature3.jpg",
+              "text": "Elasticated waist and drawstring for easy adjustment. Jersey lining brushed for softness."
+            },
+            {
+              "imageUrl": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479933/feature/ingoods_479933_feature4.jpg",
+              "text": "With one button pocket at the back."
+            }
+          ]
+        },
+        "l1Id": "479933",
+        "longDescription": "<br>",
+        "name": "Fleece Pants",
+        "prices": {
+          "base": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "2490.0000"
+          },
+          "promo": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "2290.0000"
+          }
+        },
+        "productId": "E479933-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "displayOrder": 1,
+            "name": "-",
+            "isDummy": false,
+            "states": [
+              "display",
+              "sale"
+            ],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {},
+        "representative": {
+          "color": {
+            "code": "COL04",
+            "displayCode": "04",
+            "name": "GRAY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [
+              {
+                "code": "discount",
+                "id": 12,
+                "name": "Sale",
+                "detail": "Sale"
+              }
+            ],
+            "productFlags": [
+              {
+                "code": "newPrice",
+                "id": 4,
+                "name": "Reduced GST Price",
+                "detail": "Reduced GST Price"
+              },
+              {
+                "code": "salesStart",
+                "id": 6,
+                "name": "New Arrivals",
+                "detail": "New Arrivals"
+              },
+              {
+                "code": "limitedStore",
+                "id": 3,
+                "name": "Limited Store",
+                "detail": "Limited Store"
+              }
+            ]
+          },
+          "isFavorite": false,
+          "l2Id": "08918394",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 0,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "",
+        "sizeChartUrl": "https://www.uniqlo.com/in/en/size/479933_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA004",
+            "displayCode": "004",
+            "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA006",
+            "displayCode": "006",
+            "name": "XL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA007",
+            "displayCode": "007",
+            "name": "XXL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 0,
+        "washingInformation": "Machine wash cold, gentle cycle, Do not Dry Clean, Do not tumble dry."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
             "code": "COL64",
             "displayCode": "64",
             "name": "BLUE",
@@ -54734,8 +54990,8 @@
       }
     ],
     "pagination": {
-      "count": 245,
-      "total": 245,
+      "count": 246,
+      "total": 246,
       "offset": 1000
     }
   }
