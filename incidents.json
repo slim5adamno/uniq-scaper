@@ -468,6 +468,11 @@
           "name": "73cm"
         },
         {
+          "code": "CMD076",
+          "displayCode": "076",
+          "name": "76cm"
+        },
+        {
           "code": "CMD082",
           "displayCode": "082",
           "name": "82cm"
@@ -10469,19 +10474,13 @@
         "longDescription": "- Wicks away moisture to keep you feeling fresh. <br>- A perfectly-fitting inner layer that stays hidden under outer layers.",
         "name": "HEATTECH Tights",
         "prices": {
+          "promo": null,
           "base": {
             "currency": {
               "code": "INR",
               "symbol": "Rs."
             },
             "value": "1290.0000"
-          },
-          "promo": {
-            "currency": {
-              "code": "INR",
-              "symbol": "Rs."
-            },
-            "value": "1190.0000"
           }
         },
         "productId": "E461013-000",
@@ -10525,14 +10524,7 @@
             }
           },
           "flags": {
-            "priceFlags": [
-              {
-                "code": "discount",
-                "id": 12,
-                "name": "Sale",
-                "detail": "Sale"
-              }
-            ],
+            "priceFlags": [],
             "productFlags": [
               {
                 "code": "newPrice",
@@ -30766,6 +30758,15 @@
             "code": "CMD073",
             "displayCode": "073",
             "name": "73cm",
+            "display": {
+              "showFlag": true,
+              "chipType": 1
+            }
+          },
+          {
+            "code": "CMD076",
+            "displayCode": "076",
+            "name": "76cm",
             "display": {
               "showFlag": true,
               "chipType": 1
