@@ -356,6 +356,13 @@
       ],
       "flags": [
         {
+          "code": "limitedOffer",
+          "name": "Limited Offer",
+          "rank": 5,
+          "id": 10,
+          "lazy": true
+        },
+        {
           "code": "newPrice",
           "name": "Reduced GST Price",
           "rank": 6,
@@ -374,13 +381,6 @@
           "name": "New Arrivals",
           "rank": 9,
           "id": 6,
-          "lazy": false
-        },
-        {
-          "code": "newSKU",
-          "name": "New Color",
-          "rank": 10,
-          "id": 7,
           "lazy": false
         },
         {
@@ -28199,15 +28199,6 @@
             "code": "COL08",
             "displayCode": "08",
             "name": "DARK GRAY",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "COL09",
-            "displayCode": "09",
-            "name": "BLACK",
             "display": {
               "showFlag": true,
               "chipType": 0
