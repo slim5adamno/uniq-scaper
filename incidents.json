@@ -311,6 +311,13 @@
       ],
       "flags": [
         {
+          "code": "limitedOffer",
+          "name": "Limited Offer",
+          "rank": 5,
+          "id": 10,
+          "lazy": true
+        },
+        {
           "code": "newPrice",
           "name": "Reduced GST Price",
           "rank": 6,
@@ -391,7 +398,7 @@
         {
           "from": 2000,
           "to": 3000,
-          "count": 72
+          "count": 71
         },
         {
           "from": 3000,
@@ -407,58 +414,58 @@
       "ratings": [
         {
           "rating": 0,
-          "accumulated": 258,
+          "accumulated": 257,
           "count": 74
         },
         {
           "rating": 0.5,
-          "accumulated": 184,
+          "accumulated": 183,
           "count": 0
         },
         {
           "rating": 1,
-          "accumulated": 184,
+          "accumulated": 183,
           "count": 2
         },
         {
           "rating": 1.5,
-          "accumulated": 182,
+          "accumulated": 181,
           "count": 0
         },
         {
           "rating": 2,
-          "accumulated": 182,
+          "accumulated": 181,
           "count": 1
         },
         {
           "rating": 2.5,
-          "accumulated": 181,
+          "accumulated": 180,
           "count": 0
         },
         {
           "rating": 3,
-          "accumulated": 181,
+          "accumulated": 180,
           "count": 3
         },
         {
           "rating": 3.5,
-          "accumulated": 178,
+          "accumulated": 177,
           "count": 1
         },
         {
           "rating": 4,
-          "accumulated": 177,
+          "accumulated": 176,
           "count": 16
         },
         {
           "rating": 4.5,
-          "accumulated": 161,
+          "accumulated": 160,
           "count": 82
         },
         {
           "rating": 5,
-          "accumulated": 79,
-          "count": 79
+          "accumulated": 78,
+          "count": 78
         }
       ],
       "sizes": [
@@ -24463,15 +24470,6 @@
               "showFlag": true,
               "chipType": 0
             }
-          },
-          {
-            "code": "COL69",
-            "displayCode": "69",
-            "name": "NAVY",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
           }
         ],
         "composition": "Body: 67% Polyester, 29% Viscose, 4% Elastane ( 62% Uses Recycled Polyester Fiber )/ Pocket Lining: 68% Polyester, 32% Cotton",
@@ -24640,15 +24638,6 @@
             "code": "SMA003",
             "displayCode": "003",
             "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
             "display": {
               "showFlag": true,
               "chipType": 0
@@ -30667,6 +30656,9 @@
               "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481442/sub/goods_481442_sub11_3x4.jpg"
             },
             {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481442/sub/goods_481442_sub12_3x4.jpg"
+            },
+            {
               "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481442/sub/goods_481442_sub14_3x4.jpg"
             }
           ],
@@ -30931,7 +30923,10 @@
               "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/481441/sub/ingoods_481441_sub3_3x4.jpg"
             },
             {
-              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481441/sub/goods_481441_sub13_3x4.jpg"
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481441/sub/goods_481441_sub11_3x4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481441/sub/goods_481441_sub12_3x4.jpg"
             },
             {
               "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481441/sub/goods_481441_sub14_3x4.jpg"
@@ -35874,9 +35869,9 @@
         },
         "representative": {
           "color": {
-            "code": "COL69",
-            "displayCode": "69",
-            "name": "NAVY",
+            "code": "COL01",
+            "displayCode": "01",
+            "name": "OFF WHITE",
             "display": {
               "showFlag": true,
               "chipType": 0
@@ -35901,7 +35896,7 @@
             ]
           },
           "isFavorite": false,
-          "l2Id": "08208967",
+          "l2Id": "08147802",
           "salesStartDate": "",
           "salesEndDate": ""
         },
@@ -38874,6 +38869,15 @@
             "code": "SMA004",
             "displayCode": "004",
             "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
             "display": {
               "showFlag": true,
               "chipType": 0
@@ -57634,8 +57638,8 @@
     ],
     "pagination": {
       "count": 257,
-      "total": 258,
-      "offset": 1001
+      "total": 257,
+      "offset": 1000
     }
   }
 }
