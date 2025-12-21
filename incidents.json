@@ -311,6 +311,13 @@
       ],
       "flags": [
         {
+          "code": "limitedOffer",
+          "name": "Limited Offer",
+          "rank": 5,
+          "id": 10,
+          "lazy": true
+        },
+        {
           "code": "newPrice",
           "name": "Reduced GST Price",
           "rank": 6,
@@ -374,12 +381,12 @@
         {
           "from": 500,
           "to": 1000,
-          "count": 25
+          "count": 26
         },
         {
           "from": 1000,
           "to": 2000,
-          "count": 163
+          "count": 164
         },
         {
           "from": 2000,
@@ -400,53 +407,53 @@
       "ratings": [
         {
           "rating": 0,
-          "accumulated": 259,
-          "count": 79
+          "accumulated": 261,
+          "count": 80
         },
         {
           "rating": 0.5,
-          "accumulated": 180,
+          "accumulated": 181,
           "count": 0
         },
         {
           "rating": 1,
-          "accumulated": 180,
+          "accumulated": 181,
           "count": 4
         },
         {
           "rating": 1.5,
-          "accumulated": 176,
+          "accumulated": 177,
           "count": 0
         },
         {
           "rating": 2,
-          "accumulated": 176,
+          "accumulated": 177,
           "count": 1
         },
         {
           "rating": 2.5,
-          "accumulated": 175,
+          "accumulated": 176,
           "count": 0
         },
         {
           "rating": 3,
-          "accumulated": 175,
+          "accumulated": 176,
           "count": 2
         },
         {
           "rating": 3.5,
-          "accumulated": 173,
+          "accumulated": 174,
           "count": 1
         },
         {
           "rating": 4,
-          "accumulated": 172,
+          "accumulated": 173,
           "count": 19
         },
         {
           "rating": 4.5,
-          "accumulated": 153,
-          "count": 77
+          "accumulated": 154,
+          "count": 78
         },
         {
           "rating": 5,
@@ -973,6 +980,10 @@
             "name": "Pull on"
           },
           {
+            "id": 12595,
+            "name": "Sweat"
+          },
+          {
             "id": 12503,
             "name": "AIRism"
           },
@@ -1227,10 +1238,6 @@
           {
             "id": 12637,
             "name": "Extra Warm"
-          },
-          {
-            "id": 12636,
-            "name": "Regular Warm"
           },
           {
             "id": 49386,
@@ -2166,6 +2173,147 @@
         ],
         "unisexFlag": 0,
         "washingInformation": "Machine wash cold, gentle cycle, Do not Dry Clean, Do not tumble dry."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL03",
+            "displayCode": "03",
+            "name": "GRAY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "100% Cotton",
+        "designDetail": "",
+        "freeInformation": "- The images shown may include colors that are not available.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/481511/item/ingoods_03_481511_3x4.jpg",
+              "colorCode": "03"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481511/chip/goods_03_481511_chip.jpg",
+              "colorCode": "03"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/481511/sub/ingoods_481511_sub5_3x4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/481511/sub/ingoods_481511_sub7_3x4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/481511/sub/ingoods_481511_sub14_3x4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481511/sub/goods_481511_sub15_3x4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/481511/sub/ingoods_481511_sub17_3x4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481511/sub/goods_481511_sub18_3x4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481511/sub/goods_481511_sub19_3x4.jpg"
+            }
+          ]
+        },
+        "l1Id": "481511",
+        "longDescription": "UTGP2025 x TATE MODERN<br><br>The UT Grand Prix (UTGP) is an annual global design competition that celebrates the T-shirt as a canvas for creative expression. This year, in partnership with Tate Modern, which is celebrating its 25th birthday, we've invited designs from around the world under the theme \"Create the Future: Be Inspired by Play.\" Find the perfect T-shirt that will inspire your future.\"<br><br>©Tate 2025",
+        "name": "UTGP2025 x TATE MODERN UT (Graphic T-shirt)",
+        "prices": {
+          "base": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "1490.0000"
+          },
+          "promo": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "590.0000"
+          }
+        },
+        "productId": "E481511-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "displayOrder": 1,
+            "name": "-",
+            "isDummy": false,
+            "states": [
+              "display",
+              "sale"
+            ],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {},
+        "representative": {
+          "color": {
+            "code": "COL03",
+            "displayCode": "03",
+            "name": "GRAY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [
+              {
+                "code": "discount",
+                "id": 12,
+                "name": "Sale",
+                "detail": "Sale"
+              }
+            ],
+            "productFlags": []
+          },
+          "isFavorite": false,
+          "l2Id": "08793549",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 0,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "",
+        "sizeChartUrl": "https://www.uniqlo.com/in/en/size/481511_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
       },
       {
         "careInstruction": "<br>",
@@ -5713,15 +5861,6 @@
         "sizeInformation": "",
         "sizes": [
           {
-            "code": "SMA005",
-            "displayCode": "005",
-            "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
             "code": "SMA006",
             "displayCode": "006",
             "name": "XL",
@@ -6284,15 +6423,6 @@
             "code": "SMA006",
             "displayCode": "006",
             "name": "XL",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA007",
-            "displayCode": "007",
-            "name": "XXL",
             "display": {
               "showFlag": true,
               "chipType": 0
@@ -22710,10 +22840,10 @@
         ],
         "rating": {
           "average": 4.79,
-          "count": 828,
+          "count": 829,
           "fit": 3.11,
           "rateCount": {
-            "one": 21,
+            "one": 22,
             "two": 1,
             "three": 8,
             "four": 68,
@@ -22760,7 +22890,7 @@
           "salesEndDate": ""
         },
         "reviews": {
-          "total": 828,
+          "total": 829,
           "count": 0,
           "items": []
         },
@@ -27753,6 +27883,196 @@
         ],
         "unisexFlag": 1,
         "washingInformation": "Machine wash cold, Dry Clean, Do not tumble dry."
+      },
+      {
+        "careInstruction": "<br>",
+        "colors": [
+          {
+            "code": "COL39",
+            "displayCode": "39",
+            "name": "DARK BROWN",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "composition": "Body: 84% Polyester, 16% Viscose ( 84% Uses Recycled Polyester Fiber )/ Pocket Lining: 60% Cotton, 40% Polyester ( 40% Uses Recycled Polyester Fiber )",
+        "designDetail": "- Sheer: Not Sheer<br>- Fit: Loose<br>- Silhouette: Tapered<br>- Pockets: With Pockets",
+        "freeInformation": "- The images shown may include colors that are not available.<br>- Clothing using recycled materials is part of our effort to support the reduction of waste and use of new materials. Ratios of recycled material vary by item. Please check 'Materials' on the price tag or care label for details.",
+        "genderName": "Unisex",
+        "hideReview": false,
+        "images": {
+          "main": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479847/item/ingoods_08_479847_3x4.jpg",
+              "colorCode": "08"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479847/item/ingoods_35_479847_3x4.jpg",
+              "colorCode": "35"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479847/item/ingoods_39_479847_3x4.jpg",
+              "colorCode": "39"
+            }
+          ],
+          "chip": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/479847/chip/goods_08_479847_chip.jpg",
+              "colorCode": "08"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/479847/chip/goods_35_479847_chip.jpg",
+              "colorCode": "35"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/479847/chip/goods_39_479847_chip.jpg",
+              "colorCode": "39"
+            }
+          ],
+          "sub": [
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479847/sub/ingoods_479847_sub8_3x4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479847/sub/ingoods_479847_sub9_3x4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/479847/sub/goods_479847_sub13_3x4.jpg"
+            },
+            {
+              "url": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/479847/sub/goods_479847_sub14_3x4.jpg"
+            }
+          ],
+          "features": [
+            {
+              "imageUrl": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479847/feature/ingoods_479847_feature1.jpg",
+              "text": "Thick, durable fabric with a soft brushed finish on both sides. Sophisticated, heathered color."
+            },
+            {
+              "imageUrl": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479847/feature/ingoods_479847_feature2.jpg",
+              "text": "Can be styled by tightening the drawstrings at the hems."
+            },
+            {
+              "imageUrl": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479847/feature/ingoods_479847_feature3.jpg",
+              "text": "Elastic waist with drawstring for size adjustment. Front-opening design."
+            },
+            {
+              "imageUrl": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/479847/feature/ingoods_479847_feature5.jpg",
+              "text": "Uniqlo U"
+            }
+          ]
+        },
+        "l1Id": "479847",
+        "longDescription": "- Wide tapered, curved silhouette. <br>- Suitable for everyday wear. <br>- Back patch pocket with flap.",
+        "name": "Brushed Sweat Wide Pants",
+        "prices": {
+          "base": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "2990.0000"
+          },
+          "promo": {
+            "currency": {
+              "code": "INR",
+              "symbol": "Rs."
+            },
+            "value": "1490.0000"
+          }
+        },
+        "productId": "E479847-000",
+        "plds": [
+          {
+            "code": "PTB000",
+            "displayCode": "000",
+            "displayOrder": 1,
+            "name": "-",
+            "isDummy": false,
+            "states": [
+              "display",
+              "sale"
+            ],
+            "display": {
+              "showFlag": false,
+              "chipType": 0
+            }
+          }
+        ],
+        "rating": {
+          "average": 4.8,
+          "count": 10,
+          "fit": 3.1,
+          "rateCount": {
+            "one": 0,
+            "two": 0,
+            "three": 0,
+            "four": 2,
+            "five": 8
+          }
+        },
+        "representative": {
+          "color": {
+            "code": "COL08",
+            "displayCode": "08",
+            "name": "DARK GRAY",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          "flags": {
+            "priceFlags": [
+              {
+                "code": "discount",
+                "id": 12,
+                "name": "Sale",
+                "detail": "Sale"
+              }
+            ],
+            "productFlags": [
+              {
+                "code": "limitedStore",
+                "id": 3,
+                "name": "Limited Store",
+                "detail": "Limited Store"
+              },
+              {
+                "code": "extraLargeStoreOnly",
+                "id": 1,
+                "name": "Made with Recycled Materials",
+                "detail": "Made with Recycled Materials"
+              }
+            ]
+          },
+          "isFavorite": false,
+          "l2Id": "08794492",
+          "salesStartDate": "",
+          "salesEndDate": ""
+        },
+        "reviews": {
+          "total": 10,
+          "count": 0,
+          "items": []
+        },
+        "shortDescription": "",
+        "sizeChartUrl": "https://www.uniqlo.com/in/en/size/479847_size.html",
+        "sizeInformation": "",
+        "sizes": [
+          {
+            "code": "SMA003",
+            "displayCode": "003",
+            "name": "S",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          }
+        ],
+        "unisexFlag": 1,
+        "washingInformation": "Machine wash cold, gentle cycle, Dry Clean, Do not tumble dry."
       },
       {
         "careInstruction": "<br>",
@@ -39871,6 +40191,15 @@
               "showFlag": true,
               "chipType": 0
             }
+          },
+          {
+            "code": "COL30",
+            "displayCode": "30",
+            "name": "NATURAL",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
           }
         ],
         "composition": "Body: 100% Cotton/ Pocket Lining: 65% Polyester, 35% Cotton",
@@ -40022,9 +40351,45 @@
         "sizeInformation": "",
         "sizes": [
           {
+            "code": "INS029",
+            "displayCode": "029",
+            "name": "29inch",
+            "display": {
+              "showFlag": true,
+              "chipType": 1
+            }
+          },
+          {
+            "code": "INS030",
+            "displayCode": "030",
+            "name": "30inch",
+            "display": {
+              "showFlag": true,
+              "chipType": 1
+            }
+          },
+          {
+            "code": "INS031",
+            "displayCode": "031",
+            "name": "31inch",
+            "display": {
+              "showFlag": true,
+              "chipType": 1
+            }
+          },
+          {
             "code": "INS032",
             "displayCode": "032",
             "name": "32inch",
+            "display": {
+              "showFlag": true,
+              "chipType": 1
+            }
+          },
+          {
+            "code": "INS033",
+            "displayCode": "033",
+            "name": "33inch",
             "display": {
               "showFlag": true,
               "chipType": 1
@@ -53068,15 +53433,6 @@
               "showFlag": true,
               "chipType": 1
             }
-          },
-          {
-            "code": "CMD085",
-            "displayCode": "085",
-            "name": "85cm",
-            "display": {
-              "showFlag": true,
-              "chipType": 1
-            }
           }
         ],
         "unisexFlag": 0,
@@ -56428,8 +56784,8 @@
       }
     ],
     "pagination": {
-      "count": 259,
-      "total": 259,
+      "count": 261,
+      "total": 261,
       "offset": 1000
     }
   }
