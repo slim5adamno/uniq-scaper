@@ -998,20 +998,20 @@
             "name": "Flannel"
           },
           {
-            "id": 113761,
-            "name": "Linen"
-          },
-          {
             "id": 108634,
             "name": "Crew Neck"
           },
           {
-            "id": 113764,
-            "name": "Cotton"
+            "id": 113761,
+            "name": "Linen"
           },
           {
             "id": 108636,
             "name": "Boat Neck"
+          },
+          {
+            "id": 113764,
+            "name": "Cotton"
           },
           {
             "id": 114881,
@@ -1034,16 +1034,20 @@
             "name": "Rayon"
           },
           {
-            "id": 12337,
-            "name": "Relax"
-          },
-          {
             "id": 101302,
             "name": "Rayon"
           },
           {
             "id": 12199,
             "name": "Long Sleeve"
+          },
+          {
+            "id": 12337,
+            "name": "Relax"
+          },
+          {
+            "id": 67601,
+            "name": "tapered"
           },
           {
             "id": 12196,
@@ -1054,10 +1058,6 @@
             "name": "Flannel"
           },
           {
-            "id": 67601,
-            "name": "tapered"
-          },
-          {
             "id": 101853,
             "name": "Cotton Relax"
           },
@@ -1066,28 +1066,28 @@
             "name": "Shoulder Bags"
           },
           {
-            "id": 12297,
-            "name": "Linen"
-          },
-          {
             "id": 101851,
             "name": "Pants"
           },
           {
-            "id": 25846,
-            "name": "Cotton"
+            "id": 12297,
+            "name": "Linen"
           },
           {
             "id": 106347,
             "name": "Shirts"
           },
           {
-            "id": 53734,
-            "name": "others"
+            "id": 25846,
+            "name": "Cotton"
           },
           {
             "id": 23481,
             "name": "Others"
+          },
+          {
+            "id": 53734,
+            "name": "others"
           },
           {
             "id": 27750,
@@ -1110,12 +1110,12 @@
             "name": "EZY"
           },
           {
-            "id": 113694,
-            "name": "Unisex"
-          },
-          {
             "id": 12296,
             "name": "Sweat"
+          },
+          {
+            "id": 113694,
+            "name": "Unisex"
           },
           {
             "id": 12201,
@@ -1170,12 +1170,12 @@
             "name": "Shorts"
           },
           {
-            "id": 108643,
-            "name": "Others"
-          },
-          {
             "id": 125512,
             "name": "Unisex"
+          },
+          {
+            "id": 108643,
+            "name": "Others"
           },
           {
             "id": 12339,
@@ -1194,12 +1194,12 @@
             "name": "Outerwear"
           },
           {
-            "id": 106306,
-            "name": "Bottoms"
-          },
-          {
             "id": 13084,
             "name": "Jackets"
+          },
+          {
+            "id": 106306,
+            "name": "Bottoms"
           },
           {
             "id": 106309,
@@ -1234,16 +1234,16 @@
             "name": "Extra Warm"
           },
           {
-            "id": 12361,
-            "name": "Regular Warm"
+            "id": 19829,
+            "name": "Sweat Pants"
           },
           {
             "id": 106316,
             "name": "Sweaters"
           },
           {
-            "id": 19829,
-            "name": "Sweat Pants"
+            "id": 12361,
+            "name": "Regular Warm"
           },
           {
             "id": 11611,
@@ -1306,12 +1306,12 @@
             "name": "AIRism"
           },
           {
-            "id": 129724,
-            "name": "Crew Neck"
-          },
-          {
             "id": 22363,
             "name": "Others"
+          },
+          {
+            "id": 129724,
+            "name": "Crew Neck"
           },
           {
             "id": 31358,
@@ -15936,7 +15936,7 @@
         "composition": "100% Cotton",
         "designDetail": "- Fit: Relaxed<br>- Pockets: No Pockets",
         "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Unisex",
+        "genderName": "Women",
         "hideReview": false,
         "images": {
           "main": [
@@ -16095,7 +16095,7 @@
             }
           }
         ],
-        "unisexFlag": 1,
+        "unisexFlag": 0,
         "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
       },
       {
@@ -17108,7 +17108,7 @@
         "composition": "100% Cotton",
         "designDetail": "- Fit: Regular<br>- Pockets: No Pockets",
         "freeInformation": "- The images shown may include colors that are not available.",
-        "genderName": "Men",
+        "genderName": "Unisex",
         "hideReview": false,
         "images": {
           "main": [
@@ -17264,7 +17264,7 @@
             }
           }
         ],
-        "unisexFlag": 0,
+        "unisexFlag": 1,
         "washingInformation": "Machine wash cold, Do not Dry Clean, Tumble dry low."
       },
       {
@@ -39394,15 +39394,6 @@
         "careInstruction": "<br>",
         "colors": [
           {
-            "code": "COL08",
-            "displayCode": "08",
-            "name": "DARK GRAY",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
             "code": "COL39",
             "displayCode": "39",
             "name": "DARK BROWN",
@@ -55328,10 +55319,17 @@
                 "detail": "Sale"
               }
             ],
-            "productFlags": []
+            "productFlags": [
+              {
+                "code": "newPrice",
+                "id": 4,
+                "name": "Reduced GST Price",
+                "detail": "Reduced GST Price"
+              }
+            ]
           },
           "isFavorite": false,
-          "l2Id": "08363647",
+          "l2Id": "09046025",
           "salesStartDate": "",
           "salesEndDate": ""
         },
@@ -61128,15 +61126,6 @@
               "showFlag": true,
               "chipType": 0
             }
-          },
-          {
-            "code": "COL69",
-            "displayCode": "69",
-            "name": "NAVY",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
           }
         ],
         "composition": "66% Acrylic, 18% Polyamide, 8% Polyester, 8% Wool",
@@ -61297,15 +61286,6 @@
       {
         "careInstruction": "<br>",
         "colors": [
-          {
-            "code": "COL01",
-            "displayCode": "01",
-            "name": "OFF WHITE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
           {
             "code": "COL69",
             "displayCode": "69",
@@ -61489,15 +61469,6 @@
             "code": "SMA003",
             "displayCode": "003",
             "name": "S",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
             "display": {
               "showFlag": true,
               "chipType": 0
