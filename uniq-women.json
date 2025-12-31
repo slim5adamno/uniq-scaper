@@ -518,11 +518,6 @@
           "name": "58cm"
         },
         {
-          "code": "CMD064",
-          "displayCode": "064",
-          "name": "64cm"
-        },
-        {
           "code": "CMD067",
           "displayCode": "067",
           "name": "67cm"
@@ -1888,6 +1883,15 @@
             "code": "SMA004",
             "displayCode": "004",
             "name": "M",
+            "display": {
+              "showFlag": true,
+              "chipType": 0
+            }
+          },
+          {
+            "code": "SMA005",
+            "displayCode": "005",
+            "name": "L",
             "display": {
               "showFlag": true,
               "chipType": 0
@@ -25455,27 +25459,9 @@
             }
           },
           {
-            "code": "SMA004",
-            "displayCode": "004",
-            "name": "M",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
             "code": "SMA005",
             "displayCode": "005",
             "name": "L",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
-            "code": "SMA006",
-            "displayCode": "006",
-            "name": "XL",
             "display": {
               "showFlag": true,
               "chipType": 0
@@ -38130,15 +38116,6 @@
         "sizeInformation": "",
         "sizes": [
           {
-            "code": "CMD064",
-            "displayCode": "064",
-            "name": "64cm",
-            "display": {
-              "showFlag": true,
-              "chipType": 1
-            }
-          },
-          {
             "code": "CMD067",
             "displayCode": "067",
             "name": "67cm",
@@ -49859,15 +49836,6 @@
         "careInstruction": "<br>",
         "colors": [
           {
-            "code": "COL01",
-            "displayCode": "01",
-            "name": "OFF WHITE",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
-          {
             "code": "COL44",
             "displayCode": "44",
             "name": "YELLOW",
@@ -50938,15 +50906,6 @@
       {
         "careInstruction": "<br>",
         "colors": [
-          {
-            "code": "COL15",
-            "displayCode": "15",
-            "name": "RED",
-            "display": {
-              "showFlag": true,
-              "chipType": 0
-            }
-          },
           {
             "code": "COL19",
             "displayCode": "19",
